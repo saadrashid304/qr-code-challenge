@@ -1,7 +1,12 @@
-import "./App.css";
+import React, { Fragment } from "react";
+import QrCodeCard from "./components/QrCodeCard/QrCodeCard";
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => {
+  return (
+    <Fragment>
+      <QrCodeCard />
+    </Fragment>
+  );
+};
 
 export default App;

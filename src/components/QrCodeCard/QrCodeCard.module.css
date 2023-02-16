@@ -1,0 +1,51 @@
+.cardMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cardSubContainer {
+    background-color: hsl(0, 0%, 100%);
+    width: 40vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qrImage {
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.titleBold {
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.desccription {
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    color: hsl(220, 15%, 55%);
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .titleBold {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .desccription {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}
